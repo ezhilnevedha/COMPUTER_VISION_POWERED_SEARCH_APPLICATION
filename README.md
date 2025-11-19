@@ -15,25 +15,18 @@ Simple and user-friendly interface
 Auto GPU/CPU selection for faster performance
 
 ### Project Structure
+```
 project/
-
-│── app.py                                                                                                                 # Main Streamlit application
-
-|── requirements.txt                                                                                                       # All required packages
-
+│── app.py                         # Main Streamlit application
+|── requirements.txt               # All required packages
 │── src/                                            
-
-│    ├── inference.py                                                                                                      # YOLO model loading & prediction
-
-│    ├── config.py                                                                                                         # Configuration loader
-
+│    ├── inference.py              # YOLO model loading & prediction
+│    ├── config.py                 # Configuration loader
 │── models/
-
-│    └── your_model.pt                                                                                                     # YOLO model weight file
-
+│    └── your_model.pt             # YOLO model weight file
 │── assets/
-     └── sample_images/                                                                                                    # Demo images
-
+     └── sample_images/            # Demo images
+```
 ### How It Works
 
 The user uploads an image
